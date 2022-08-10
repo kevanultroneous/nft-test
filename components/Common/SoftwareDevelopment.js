@@ -23,7 +23,7 @@ const SoftwareDevelopment = (props) => {
           {
             props.custombutton ? props.custombutton :
               <ActionButtonV2
-                href={"/contact-us"}
+                href={"/get-in-touch"}
                 text={
                   <>
                     <span className={styles.TextBtn}>Explore Product </span>

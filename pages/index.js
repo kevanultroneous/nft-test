@@ -96,7 +96,7 @@ export default function Home() {
           {/* Our Products */}
           <Products />
           {/* Exchange */}
-          <Exchange href={"/contact-us"} />
+          <Exchange href={"/get-in-touch"} />
           {/* Get with us */}
           <WhatWillYouGetWithUs />
           {/* Inspiredby */}
