@@ -59,10 +59,12 @@
   }
   .AchievementsHead {
     text-align: left;
+    display: none;
   }
   .AchievementsTitle {
     text-align: left;
     font-size: 35px;
+    padding-left: 0.5rem;
   }
   .AchivmentImg {
     min-width: 8rem;
