@@ -73,7 +73,7 @@
 }
 
 .Scrolldowncontainer {
-  transform: rotate(-90deg);
+  /* transform: rotate(-90deg); */
   display: flex;
   align-items: center;
   justify-content: end;
@@ -198,7 +198,7 @@
   }
 
   .HomeSmallHeading {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .Scrolldowncontainer {
@@ -264,7 +264,7 @@
   }
 
   .SoftwareDevelopmentExpertsRow {
-    padding-top: 5rem;
+    padding-top: 7rem;
   }
 
   .Herotitle h1 {
@@ -359,14 +359,14 @@
   }
 
   .Scrolldowncontainer {
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
     display: flex;
     align-items: center;
     justify-content: end;
     position: relative;
     animation: scrolldowntotop 4s ease-in 0s infinite normal;
     animation-direction: alternate;
-    margin-left: -3rem;
+    margin-left: -1.5rem;
     margin-bottom: 4rem;
     cursor: pointer;
   }

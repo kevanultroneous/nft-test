@@ -7,9 +7,10 @@ const Mission = () => {
     <div className={styles.MissionContainer}>
       <Parallax bgImage={"/assets/images/ParallaxAbout.png"} strength={300}>
         {/* style={{ height: 800 }} */}
-        <div style={{ height: 700 }}>
+        <div>
           <Row>
-            <Col xl={8}>
+            <Col xl={2}></Col>
+            <Col xl={10}>
               <div className={styles.MissionTitle}>
                 <h2>Our Mission</h2>
                 <p>

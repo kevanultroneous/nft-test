@@ -207,14 +207,12 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1080px) {
   .TabletMenu {
-    /* display: flex;
+    display: flex;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(99deg, #2e3159 28.05%, #a21d34 148.07%);
     border-image-slice: 1;
-    border-right: none; */
-    display: none;
     border-right: none;
   }
 
@@ -326,7 +324,6 @@
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(99deg, #2e3159 28.05%, #a21d34 148.07%);
     border-image-slice: 1;
-    border-right: none;
   }
 
   .MobifinxXmenu {
@@ -374,6 +371,13 @@
 
 /* (this for Tab) */
 @media only screen and (min-width: 768px) {
+  .Explorproduct {
+    display: flex;
+    justify-content: left;
+  }
+  .IconName {
+    text-align: left;
+  }
 }
 
 /* (this for Tab landscap) */

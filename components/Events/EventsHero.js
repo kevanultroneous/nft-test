@@ -24,7 +24,7 @@ function EventsHero() {
           EventsTitle={
             "A network-driven platform integrating e-commerce, a wallet, and trading features"
           }
-          EventsParagraph={"6th July 2022"}
+          EventsParagraph={"An ecosystem where all the gambling platforms"}
         />
       </div>
     </div>
