@@ -308,13 +308,16 @@
     transform: rotate(0deg);
     margin: 0%;
     padding-bottom: 1rem;
+    display: none;
   }
 
   .BenefitHeading {
+    font-size: 50px;
   }
 
   .ItemCard {
     padding-top: 1rem;
+    width: 150%;
   }
   .ControllerRev {
     flex-direction: row;
@@ -405,6 +408,7 @@
 
   .ItemCard {
     padding-top: 4rem;
+    padding-left: 0;
   }
 
   .ItemTitle {
