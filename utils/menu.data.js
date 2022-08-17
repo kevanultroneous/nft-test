@@ -55,7 +55,7 @@ export const menus = [
       },
       {
         name: "Events & webinars",
-        link: "/mobifinx-events-and-webinars",
+        link: "/mobifinx-event-and-webinars",
         paragraph:
           "Join us for Insightful Sessions Across the Globe on Transformation.        ",
       },
