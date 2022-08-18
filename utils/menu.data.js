@@ -110,13 +110,13 @@ export const menus = [
     menus: [
       {
         name: "Introduction",
-        link: "/",
+        link: "/a",
         description:
           " From startups to enterprise solutions that are more open, efficient, and secure.          ",
       },
       {
         name: "Our Product",
-        link: "/",
+        link: "/a",
         description:
           " Eighth products. One mission. To empower startups to enterprises worldwide.          ",
       },
