@@ -6,6 +6,7 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import ActionButtonV2 from "../Common/ActionButtonV2";
 import AOS from "aos";
 import { useEffect } from "react";
+import Link from "next/link";
 const Solution = () => {
   useEffect(() => {
     AOS.refresh();
@@ -24,10 +25,8 @@ const Solution = () => {
           xs={12}
           md={4}
           className={styles.SolutionDetail}
-          // data-aos="fade"
-          // data-aos-duration="3000"
-          // data-aos-delay="500"
-          // data-aos-easing="ease"
+          // data-aos="fade-up"
+          // data-aos-duration="2000"
         >
           <Image alt="solution" src={"/assets/images/solutionicon.svg"} />
           <h5 className={styles.Divider}>
@@ -41,10 +40,8 @@ const Solution = () => {
           xs={12}
           md={4}
           className={styles.SolutionDetail}
-          // data-aos="fade"
-          // data-aos-duration="3000"
-          // data-aos-delay="500"
-          // data-aos-easing="ease"
+          // data-aos="fade-up"
+          // data-aos-duration="2000"
         >
           <Image alt="solution" src={"/assets/images/solutionicon.svg"} />
           <h5 className={styles.Divider}>
@@ -58,10 +55,8 @@ const Solution = () => {
           xs={12}
           md={4}
           className={styles.SolutionDetail}
-          // data-aos="fade"
-          // data-aos-duration="3000"
-          // data-aos-delay="500"
-          // data-aos-easing="ease"
+          // data-aos="fade-up"
+          // data-aos-duration="2000"
         >
           <Image alt="solution" src={"/assets/images/solutionicon.svg"} />
           <h5>Strong Technical Competence</h5>
@@ -69,21 +64,19 @@ const Solution = () => {
       </Row>
       <div
         className={styles.Button}
-        // data-aos="fade"
-        // data-aos-duration="3000"
-        // data-aos-delay="500"
-        // data-aos-easing="ease"
+        // data-aos="fade-up"
+        // data-aos-duration="2000"
       >
         <ActionButtonV2
           text={
             <>
               <span className={styles.Btntext}>Try Free Demo </span>
               <span className={styles.Icon}>
-                {" "}
                 <HiOutlineExternalLink />
               </span>
             </>
           }
+          href={"#"}
         />
       </div>
     </section>
