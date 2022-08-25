@@ -31,30 +31,42 @@ function ExploreWorkplace() {
               <div className={styles.groupSmImage}>
                 <div
                   className={(styles.workPlaceImages, styles.workPlacesSmImage)}
+                  // data-aos="fade-up"
+                  // data-aos-duration="500"
+                  // data-aos-delay="200"
                 >
                   <Image
                     fluid
                     src="/assets/images/Workplace-Chair.png"
                     alt="WorkPlace-Chair"
+                    className={styles.Imageanimation}
                   />
                 </div>
                 <div
                   className={(styles.workPlaceImages, styles.workPlacesSmImage)}
+                  // data-aos="fade-up"
+                  // data-aos-duration="1000"
+                  // data-aos-delay="250"
                 >
                   <Image
                     fluid
                     src="/assets/images/Workplace-Meeting.png"
                     alt="WorkPlace-Meeting"
+                    className={styles.Imageanimation}
                   />
                 </div>
               </div>
               <div
                 className={(styles.workPlaceImages, styles.workPlacesBgImage)}
+                // data-aos="fade-up"
+                // data-aos-duration="1500"
+                // data-aos-delay="300"
               >
                 <Image
                   fluid
                   src="/assets/images/Rectangle 109.png"
                   alt="WorkPlace-Desk"
+                  className={styles.Imageanimation}
                 />
               </div>
             </Row>
@@ -71,30 +83,42 @@ function ExploreWorkplace() {
                   styles.workPlacesBgImage,
                   styles.workPlacesSecBgImage)
                 }
+                // data-aos="fade-up"
+                // data-aos-duration="2000"
+                // data-aos-delay="350"
               >
                 <Image
                   fluid
                   src="/assets/images/Rectangle 112.png"
                   alt="WorkPlace-On-Desk"
+                  className={styles.Imageanimation}
                 />
               </div>
               <div className={styles.groupSmImage}>
                 <div
                   className={(styles.workPlaceImages, styles.workPlacesSmImage)}
+                  // data-aos="fade-up"
+                  // data-aos-duration="2500"
+                  // data-aos-delay="400"
                 >
                   <Image
                     fluid
                     src="/assets/images/Workplace-activity.png"
                     alt="WorkPlace-Activity"
+                    className={styles.Imageanimation}
                   />
                 </div>
                 <div
                   className={(styles.workPlaceImages, styles.workPlacesSmImage)}
+                  // data-aos="fade-up"
+                  // data-aos-duration="3000"
+                  // data-aos-delay="450"
                 >
                   <Image
                     fluid
                     src="/assets/images/Workplace-girl.png"
                     alt="WorkPlace-Girl"
+                    className={styles.Imageanimation}
                   />
                 </div>
               </div>

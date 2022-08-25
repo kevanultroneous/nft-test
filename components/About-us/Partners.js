@@ -11,7 +11,8 @@ const Partners = () => {
     speed: 1800,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1400,

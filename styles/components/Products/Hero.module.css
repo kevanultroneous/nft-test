@@ -29,9 +29,22 @@
 }
 
 .productimg {
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
+  padding: 0;
   width: 100%;
   height: auto;
+  /* padding-left: 1.2rem; */
+}
+
+.productimg:hover {
+  transform: scale(1.1) !important;
+  transition: all 1s ease;
+}
+
+.HeroImgdiv {
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .MiniLine {
@@ -301,6 +314,7 @@
   .Herotitle {
     display: flex;
     align-items: center;
+    padding-bottom: 2rem;
   }
 
   .SpaceRemover {
@@ -324,9 +338,10 @@
   }
 
   .productimg {
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
     width: 100%;
     height: auto;
+    padding: 0;
   }
 
   .MiniLine {
@@ -375,7 +390,7 @@
     position: relative;
     animation: scrolldowntotop 4s ease-in 0s infinite normal;
     animation-direction: alternate;
-    margin-left: -1.5rem;
+    margin-left: -1rem;
     margin-bottom: 4rem;
     cursor: pointer;
   }

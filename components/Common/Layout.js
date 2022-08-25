@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 
 const Layout = ({
   title,
@@ -59,6 +60,19 @@ const Layout = ({
         <meta name="Rating" content="General" />
         <meta name="application-name" content="MobifinX" />
       </Head>
+      <Script
+        type="text/javascript"
+        src="https://nqtl-zgph.maillist-manage.com/js/optin.min.js"
+        onload={
+          "setupSF('sf3z5ce9c16be8709aa8aa22ac8ddde609847c7c40617ba32586d78cf79bec7cc268','ZCFORMVIEW',false,'light',false,'0')"
+        }
+      ></Script>
+      {/* <Script type="text/javascript">
+        function
+        runOnFormSubmit_sf3z5ce9c16be8709aa8aa22ac8ddde609847c7c40617ba32586d78cf79bec7cc268(th)
+        Before submit, if you want to trigger your event, "include your code here"
+        ;
+      </Script> */}
       <main>{children}</main>
     </div>
   );

@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import Lottie from "react-lottie";
 import animation from "../../utils/New-2-scroll.json";
 import { Parallax } from "react-parallax";
+import $ from "jquery";
 
 const Hero = ({ clickHandler }) => {
   const defaultOptions = {
@@ -24,6 +25,22 @@ const Hero = ({ clickHandler }) => {
     AOS.refresh();
     AOS.init();
   }, []);
+
+  // useEffect(() => {
+  //   if (window.innerWidth > 1024) {
+  //     $(window).on("scroll", function () {
+  //       var scroll = $(window).scrollTop();
+  //       $(".Imageanimation img").css({
+  //         transform:
+  //           "translate3d(-0%, -" +
+  //           scroll / 20 +
+  //           "%, 0) scale(" +
+  //           (100 + scroll / 5) / 100 +
+  //           ")",
+  //       });
+  //     });
+  //   }
+  // }, []);
 
   return (
     <section className={styles.Herosection}>
@@ -104,16 +121,22 @@ const Hero = ({ clickHandler }) => {
           </div>
         </Col>
         <Col xl={10}>
-          {/* <Parallax bgImage={"/assets/images/productimage.png"} strength={300}> */}
-          <Image
-            data-aos="fade-left"
-            data-aos-duration="3000"
-            data-aos-delay="500"
-            data-aos-easing="ease"
-            src={"/assets/images/productimage.png"}
-            alt="productimg"
-            className={styles.productimg}
-          />
+          {/* <Parallax
+            bgImage={"/assets/images/productimage.png"}
+            strength={300}
+            style={{ height: 700 }}
+          > */}
+          <div className={styles.HeroImgdiv}>
+            <Image
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              // data-aos-delay="500"
+              // data-aos-easing="ease"
+              src={"/assets/images/productimage.png"}
+              alt="productimg"
+              className={styles.productimg}
+            />
+          </div>
           {/* </Parallax> */}
         </Col>
       </Row>

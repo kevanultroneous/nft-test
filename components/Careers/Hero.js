@@ -39,10 +39,12 @@ const Hero = ({ clickHandler }) => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1800,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    autoplaySpeed: 6000,
+    autoplay: true,
   };
   useEffect(() => {
     Aos.refresh();
@@ -87,6 +89,8 @@ const Hero = ({ clickHandler }) => {
               xs={12}
               sm={6}
               className={styles.heroCard}
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
               <div className={styles.SliderMain}>
                 <SlickSlider
