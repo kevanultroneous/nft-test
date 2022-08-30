@@ -6,10 +6,11 @@ import { useEffect } from "react";
 import Lottie from "react-lottie";
 import ActionButton from "../Common/ActionButton";
 import animdata from "../../utils/anim.json";
+import Aos from "aos";
 const Discover = () => {
   useEffect(() => {
-    AOS.refresh();
-    AOS.init();
+    Aos.refresh();
+    Aos.init();
   }, []);
   const arrayBox = [
     {
@@ -74,17 +75,11 @@ const Discover = () => {
       <Row className={styles.DiscoverMobifinixRowsUniq}>
         <Col className={styles.Animcol} xs={12} xl={6} md={6}>
           <Row>
-            {/* <Image
-              src="/assets/images/anim2.gif"
-              alt={"anim"}
-              className={styles.AnimImage}
-            /> */}
             <Image
               src="/assets/images/Arrowanim.gif"
               alt={"anim"}
               className={styles.AnimImage}
             />
-            {/* <Lottie options={defaultOptions} height={400} width={400} /> */}
           </Row>
         </Col>
         <Col className={styles.Discovercol} xs={12} xl={6} md={6}>
@@ -95,14 +90,7 @@ const Discover = () => {
           >
             <Row className={styles.DiscoverItemsRow}>
               <Col xl={6} xs={4} md={6}>
-                <div
-                  className={styles.DiscoverBox}
-                  // data-aos="fade-left"
-                  // data-aos-duration="2000"
-                  // data-aos-delay="300"
-                  // data-aos-easing="ease"
-                  // data-aos-mirror="true"
-                >
+                <div className={styles.DiscoverBox}>
                   <div className={styles.DiscoverItemBox}>
                     <Image
                       alt={arrayBox[0].image}
@@ -116,14 +104,7 @@ const Discover = () => {
                 </div>
               </Col>
               <Col xl={6} xs={4} md={6}>
-                <div
-                  className={styles.DiscoverBox}
-                  // data-aos="fade-left"
-                  // data-aos-duration="2000"
-                  // data-aos-delay="300"
-                  // data-aos-easing="ease"
-                  // data-aos-mirror="true"
-                >
+                <div className={styles.DiscoverBox}>
                   <div className={styles.DiscoverItemBox}>
                     <Image
                       alt={arrayBox[1].image}
@@ -139,14 +120,7 @@ const Discover = () => {
             </Row>
             <Row className={styles.DiscoverItemsRow}>
               <Col xl={6} xs={4} md={6}>
-                <div
-                  className={styles.DiscoverBox}
-                  // data-aos="fade-left"
-                  // data-aos-duration="2000"
-                  // data-aos-delay="300"
-                  // data-aos-easing="ease"
-                  // data-aos-mirror="true"
-                >
+                <div className={styles.DiscoverBox}>
                   <div className={styles.DiscoverItemBox}>
                     <Image
                       alt={arrayBox[2].image}
@@ -160,14 +134,7 @@ const Discover = () => {
                 </div>
               </Col>
               <Col xl={6} xs={4} md={6}>
-                <div
-                  className={styles.DiscoverBox}
-                  // data-aos="fade-left"
-                  // data-aos-duration="2000"
-                  // data-aos-delay="300"
-                  // data-aos-easing="ease"
-                  // data-aos-mirror="true"
-                >
+                <div className={styles.DiscoverBox}>
                   <div className={styles.DiscoverItemBox}>
                     <Image
                       alt={arrayBox[3].image}

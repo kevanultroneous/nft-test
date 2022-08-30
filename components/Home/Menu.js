@@ -4,10 +4,11 @@ import { Image } from "react-bootstrap";
 import AOS from "aos";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Aos from "aos";
 const ParentMenuBar = ({ children, opacity }) => {
   useEffect(() => {
-    AOS.refresh();
-    AOS.init();
+    Aos.refresh();
+    Aos.init();
   }, []);
   const router = useRouter();
   return (
@@ -59,17 +60,6 @@ const Menu = ({ opacity, handleClick, change, addClass, clicktoCloseMenu }) => {
           <span className={`${styles.line} lineHam`}></span>
           <span className={`${styles.line} lineHam`}></span>
         </div>
-        {/* <Image
-          style={{ cursor: "pointer" }}
-          alt={"menu"}
-          src={
-            change
-              ? "/assets/images/menuopen.svg"
-              : "/assets/images/deskmenu.svg"
-          }
-          fluid
-          onClick={() => handleClick()}
-        /> */}
       </div>
       <div>
         <p className={styles.BlockchainTechnologyText}>BLOCKCHAIN TECHNOLOGY</p>

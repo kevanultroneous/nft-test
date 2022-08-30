@@ -70,7 +70,7 @@
   width: 11rem;
 }
 .Strength span {
-  font-size: 16px;
+  font-size: 35px;
   font-weight: 400;
   color: #fff;
 }
@@ -141,6 +141,24 @@
     font-size: 35px;
     padding-top: 4rem;
   }
+  .Tabdiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .Strength span {
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .Counterdetail {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .Counter {
+    font-size: 35px !important;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -168,8 +186,9 @@
   .HowWeCame p {
     font-size: 26px;
   }
-  .Strength span {
+  .Counterdetail {
     font-size: 22px;
+    color: #fff;
   }
   .StrengthImg {
     min-width: 3rem;
@@ -228,7 +247,7 @@
   }
   .Employeeimg {
     padding-top: 0.8rem;
-    padding-right: 2rem;
+    padding-right: 4rem;
   }
   .Mobdiv {
     display: flex;
@@ -246,6 +265,11 @@
   .Strengthcol {
     width: 100%;
   }
+  .Tabdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -255,6 +279,17 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .Tabdiv {
+    display: block;
+  }
+  .CounterMain {
+    display: flex;
+    /* justify-content: center; */
+    align-items: baseline;
+  }
+  .Counter {
+    font-size: 35px !important;
+  }
   .OurStoryContainer {
     padding-top: 4rem;
     padding-bottom: 0rem;
@@ -305,7 +340,7 @@
   .Strength {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: baseline;
     padding-bottom: 1.5rem;
   }
   .Strengthcol {
@@ -328,10 +363,14 @@
     margin: 0;
     width: 11rem;
   }
-  .Strength span {
-    font-size: 16px;
+  .Counterdetail {
+    font-size: 18px;
     font-weight: 400;
     color: #fff;
+    margin: 0;
+  }
+  .Countericon {
+    font-size: 50px;
   }
   .Mobdiv {
     display: flex;
@@ -346,58 +385,3 @@
     opacity: none !important;
   } */
 }
-
-/* @media (min-width: 320px) and (max-width: 767px) {
- 
-} */
-
-/* @media (min-width: 768px) and (max-width: 1080px) {
-  .Rotatetext {
-    font-size: 18px;
-    color: #fff;
-    transform: rotate(360deg);
-    margin-top: 0rem;
-    padding-bottom: 0rem;
-    letter-spacing: 2px;
-  }
-  .OurStoryContainer {
-    padding-left: 1rem;
-  }
-  .OurStory {
-    background: linear-gradient(180deg, #1a1c3c 61.52%, #a21d34 133.83%);
-    padding: 0;
-  } */
-/* .HowWeCame{
-        width: 100%;
-    } */
-/* .Strengthcol{
-        width: 100%;
-    } */
-/* .Strength {
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    padding-bottom: 4rem;
-  }
-  .Strengthcol {
-    display: block;
-    padding-left: 5rem;
-    padding-top: 4rem;
-  }
-  .HowWeCame p {
-    padding-right: 1rem;
-  }
-  .Employeeimg {
-    padding-top: 0.8rem;
-    padding-right: 4rem;
-  }
-  .Mobdiv {
-    display: flex;
-    padding-left: 0;
-    justify-content: left;
-  }
-  .HeadingRow h4 {
-    padding-right: 0;
-    text-align: left;
-  }
-} */

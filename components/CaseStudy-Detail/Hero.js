@@ -16,14 +16,17 @@ export default function Hero() {
             A Technical Analysis Toolset for a US-Based Investing Education
             Platform
           </h4>
-          <div className={styles.ImageWrraper}>
-            <Image
-              src="/assets/images/etherium.png"
-              alt="etherium"
-              className={styles.HeroImage}
-              data-aos="fade-left"
-              data-aos-duration="2000"
-            />
+          <div className={styles.ImageanimDiv}>
+            <div className={styles.ImageWrraper}>
+              {/* <div className={styles.ImageanimDiv}> */}
+              <Image
+                src="/assets/images/etherium.png"
+                alt="etherium"
+                className={styles.HeroImage}
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              />
+            </div>
           </div>
         </div>
       </Col>

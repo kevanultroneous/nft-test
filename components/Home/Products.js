@@ -8,13 +8,14 @@ import ActionButtonV3 from "../Common/ActionButtonV3";
 import ProductsList from "utils/products.data";
 import LearnMore from "../Common/LearnMore";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Aos from "aos";
 
 const Products = ({ text }) => {
   const [opacity, setOpacity] = useState(0);
 
   useEffect(() => {
-    AOS.refresh();
-    AOS.init();
+    Aos.refresh();
+    Aos.init();
   }, []);
 
   const CardForProductSection = ({ ProductsList, index, cardStyle }) => {
@@ -60,9 +61,7 @@ const Products = ({ text }) => {
                 <p className={styles.Description}>
                   {ProductsList[index].detail}
                 </p>
-                {/* <p style={{ color: ProductsList[0].color }}>
-                        {ProductsList[0].highlight}
-                      </p> */}
+
                 <p className={styles.question}>
                   {ProductsList[index].question}
                   <ul className={styles.List}>
@@ -85,7 +84,6 @@ const Products = ({ text }) => {
                   t1={<MdOutlineKeyboardArrowRight />}
                   t2={<MdOutlineKeyboardArrowRight />}
                 />
-                {/* <p className={styles.tags}>{ProductsList[0].tags}</p> */}
               </div>
             </Col>
           </Row>

@@ -41,6 +41,7 @@
 
   .HeroDetailsWrraper {
     padding: 0 0rem 0 0rem;
+    overflow: hidden;
   }
 
   .HeroHeading {
@@ -54,6 +55,16 @@
     margin: 0%;
     margin-top: 2.5rem;
     padding: 0%;
+  }
+  .HeroImage:hover {
+    transform: scale(1.1) !important;
+    transition: all 1s ease;
+  }
+  .ImageanimDiv {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all 1s ease;
   }
 }
 
@@ -127,17 +138,23 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding-left: 6rem;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    margin: 0;
+    padding: 0;
+    /* padding-left: 6rem; */
   }
 
   .HeroDetailContainer {
     padding: 4rem 0 0rem 0rem;
+    overflow: hidden;
   }
-  /* .HeroImage:hover {
+  .HeroImage:hover {
     transform: scale(1.1) !important;
     transition: all 1s ease;
-  } */
+  }
+  .ImageanimDiv {
+    padding-left: 6rem;
+  }
 }

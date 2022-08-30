@@ -59,7 +59,7 @@ const Hero = ({ clickHandler }) => {
           <Col xl={2}></Col>
           {/* Col 1 : Main Heading */}
           <Col xl={10} xs={12} className={styles.Herocol}>
-            <h4 data-aos="fade" data-aos-duration="2000">
+            <h4 data-aos="fade" data-aos-duration="3000">
               Your Companion to Decode the{" "}
               <span className={styles.Crypto}>Crypto 101</span>
             </h4>
@@ -73,19 +73,13 @@ const Hero = ({ clickHandler }) => {
               <div>
                 <Lottie options={defaultOptions} height={100} width={50} />
               </div>
-              {/* <Image
-                alt="downimg"
-                src="/assets/images/arrows.svg"
-                className={styles.ImageDown}
-              />
-              <p className={styles.ScrolldownText}>Scroll Down</p> */}
             </div>
           </Col>
           {/* Col for Big Image */}
           <Col xl={10} className={styles.Aboutcol}>
             <div className={styles.Heroimg}>
               <Image
-                src={"/assets/images/aboutheroimg.svg"}
+                src={"/assets/images/About-hero.png"}
                 alt="aboutheroimg"
                 className={styles.Img}
                 data-aos="fade-left"

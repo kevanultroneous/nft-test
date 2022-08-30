@@ -1,4 +1,5 @@
 import styles from "@/styles/components/home/Speciality.module.css";
+import Aos from "aos";
 import AOS from "aos";
 import { useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
@@ -25,24 +26,10 @@ const Speciality = () => {
       sign: `+`,
       text: "Global Blockchain Customers",
     },
-    // {
-    //   key: 4,
-    //   countstart: 0,
-    //   countend: 12,
-    //   sign: "+",
-    //   text: "Unique Blockchain Experience",
-    // },
-    // {
-    //   key: 5,
-    //   countstart: 0,
-    //   countend: 30,
-    //   sign: "+",
-    //   text: "Project Implementation",
-    // },
   ];
   useEffect(() => {
-    AOS.refresh();
-    AOS.init();
+    Aos.refresh();
+    Aos.init();
   }, []);
   return (
     <Row className={styles.SpecialityContainer}>
